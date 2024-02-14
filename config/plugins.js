@@ -1,14 +1,15 @@
 module.exports = {
   //
   graphql: {
+    enabled: true,
     config: {
       endpoint: "/graphql",
       shadowCRUD: true,
-      playgroundAlways: false,
-      depthLimit: 7,
-      amountLimit: 100,
+      playgroundAlways: true,
+      defaultLimit: 10,
+      maxLimit: 20,
       apolloServer: {
-        tracing: false,
+        tracing: true,
       },
     },
   },
@@ -16,14 +17,15 @@ module.exports = {
 module.exports = {
   //
   graphql: {
+    enabled: true,
     config: {
       endpoint: "/graphql",
       shadowCRUD: true,
-      playgroundAlways: false,
-      depthLimit: 7,
-      amountLimit: 100,
+      playgroundAlways: true,
+      defaultLimit: 10,
+      maxLimit: 20,
       apolloServer: {
-        tracing: false,
+        tracing: true,
       },
     },
   },
