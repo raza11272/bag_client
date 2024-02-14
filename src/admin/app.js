@@ -1,11 +1,11 @@
 const config = {
   translations: {
     en: {
-      "app.components.LeftMenu.navbrand.title": "Bagusa Dashboard",
+      "app.components.LeftMenu.navbrand.title": "BAG Dashboard",
 
-      "app.components.LeftMenu.navbrand.workplace": "Bagusa",
+      "app.components.LeftMenu.navbrand.workplace": "BAG",
 
-      "Auth.form.welcome.title": "Welcom to Bagusa Store",
+      "Auth.form.welcome.title": "Welcom to BAG Admin Panel",
 
       "Auth.form.welcome.subtitle": "Login to your account",
 
