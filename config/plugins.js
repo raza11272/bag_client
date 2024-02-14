@@ -16,14 +16,16 @@ module.exports = ({ env }) => ({
   },
   // ...
   graphql: {
-    endpoint: "/graphql",
-    shadowCRUD: true,
-    playgroundAlways: true,
-    depthLimit: 7,
-    amountLimit: 100,
-    introspection: true,
-    apolloServer: {
-      tracing: false,
+    enabled: true,
+    config: {
+      endpoint: "/graphql",
+      shadowCRUD: true,
+      playgroundAlways: true,
+      defaultLimit: 10,
+      maxLimit: 20,
+      apolloServer: {
+        tracing: true,
+      },
     },
   },
 });
