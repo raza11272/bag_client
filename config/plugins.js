@@ -15,30 +15,13 @@ module.exports = ({ env }) => ({
     },
   },
   // ...
-});
 
-// module.exports = ({ env }) => ({
-//   settings: {
-//     parser: {
-//       enabled: true,
-//       multipart: true,
-//     },
-//     cors: {
-//       enabled: true,
-//       headers: "*",
-//       methods: "GET,POST,PUT,DELETE,PATCH,OPTIONS",
-//     },
-//   },
-// });
-
-module.exports = {
-  //
-  graphql: {
- enabled: true,
-    config: {
-      endpoint: '/graphql',
+      graphql: {
+       enabled: true,
+      config: {
+      endpoint: "/graphql",
       shadowCRUD: true,
-      playgroundAlways: false,
+      playgroundAlways: true,
       depthLimit: 7,
       amountLimit: 100,
       apolloServer: {
@@ -46,4 +29,8 @@ module.exports = {
       },
     },
   },
-};
+
+  
+});
+
+
