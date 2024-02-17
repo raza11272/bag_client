@@ -5,7 +5,7 @@ const config = {
 
       "app.components.LeftMenu.navbrand.workplace": "BAG",
 
-      "Auth.form.welcome.title": "Welcom to BAG Admin Panel",
+      "Auth.form.welcome.title": "Welcome to BAG Admin Panel",
 
       "Auth.form.welcome.subtitle": "Login to your account",
 
