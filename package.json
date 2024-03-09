@@ -16,7 +16,6 @@
     "@strapi/plugin-users-permissions": "4.20.0",
     "@strapi/provider-upload-cloudinary": "^4.20.0",
     "@strapi/provider-email-sendgrid": "^4.20.0",
-    "strapi-provider-email-mailjet": "^4.0.0",
     "@strapi/strapi": "4.20.0",
     "better-sqlite3": "8.6.0",
     "mysql": "^2.18.1",
