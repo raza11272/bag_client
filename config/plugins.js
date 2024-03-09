@@ -38,4 +38,20 @@ module.exports = ({ env }) => ({
   
 });
 
+module.exports = ({ env }) => ({
+  // ...
+  email: {
+    config: {
+      provider: 'sendgrid',
+      providerOptions: {
+        apiKey: env('SENDGRID_API_KEY'),
+      },
+      settings: {
+        defaultFrom: 'www.afanurraza@gmail.com',
+        defaultReplyTo: 'www.afanurraza@gmail.com',
+      },
+    },
+  },
+  // ...
+});
 
