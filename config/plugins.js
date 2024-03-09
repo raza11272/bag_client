@@ -1,5 +1,5 @@
 module.exports = ({ env }) => ({
-  // ...
+
   email: {
     config: {
       provider: "strapi-provider-email-mailjet",
@@ -12,7 +12,7 @@ module.exports = ({ env }) => ({
         defaultFrom: "bagusaonline@gmail.com",
       },
     },
-    // ...
+  
   },
 });
 
